@@ -8,7 +8,7 @@ class Loader extends Component {
         return (
                 <div className="loader">
                     <div className="loader-img-wrapper">
-                        <img alt="loader" src={Background}/>
+                        <img id="loader-logo" alt="loader" src={Background}/>
                     </div>
                 </div>
         );

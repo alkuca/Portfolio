@@ -15,29 +15,29 @@ class NavigationItem extends Component {
             <div className="navigation-items">
                 <Link to="/services">
                     <div className="navigation-item item1" onClick={((e) => this.handleMarkerFade(e))}>
-                        {window.location.pathname === "/services" ? null : <Marker/>}
-                        {window.location.pathname === "/services" ? <Marker2/> : null}
+                        {window.location.hash === "#/services" ? null : <Marker/>}
+                        {window.location.hash === "#/services" ? <Marker2/> : null}
                         <p className="item-text">SERVICES</p>
                     </div>
                 </Link>
                 <Link to="/projects">
                     <div className="navigation-item item2" onClick={((e) => this.handleMarkerFade(e))}>
-                        {window.location.pathname === "/projects" ? null : <Marker/>}
-                        {window.location.pathname === "/projects" ? <Marker2/> : null}
+                        {window.location.hash === "#/projects" ? null : <Marker/>}
+                        {window.location.hash === "#/projects" ? <Marker2/> : null}
                         <p className="item-text">PROJECTS</p>
                     </div>
                 </Link>
                 <Link to="/skills">
                     <div className="navigation-item item3" onClick={((e) => this.handleMarkerFade(e))}>
-                        {window.location.pathname === "/skills" ? null : <Marker/>}
-                        {window.location.pathname === "/skills" ? <Marker2/> : null}
+                        {window.location.hash === "#/skills" ? null : <Marker/>}
+                        {window.location.hash === "#/skills" ? <Marker2/> : null}
                         <p className="item-text">SKILLS</p>
                     </div>
                 </Link>
                 <Link to="/contact">
                     <div className="navigation-item item4" onClick={((e) => this.handleMarkerFade(e))}>
-                        {window.location.pathname === "/contact" ? null : <Marker/>}
-                        {window.location.pathname === "/contact" ? <Marker2/> : null}
+                        {window.location.hash === "#/contact" ? null : <Marker/>}
+                        {window.location.hash === "#/contact" ? <Marker2/> : null}
                         <p className="item-text">CONTACT</p>
                     </div>
                 </Link>

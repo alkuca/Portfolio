@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import pic9 from './ispred.png';
-import picFront from './bak.png';
+import pic9 from './faceFront.png';
+import picFront from './faceBack.png';
 import Slides1 from "./Slides1";
 import Slides2 from "./Slides2";
 import Parallax from 'parallax-js'
@@ -13,15 +13,16 @@ class HomeContent extends Component {
     });
 
     componentDidMount(){
-            this.enterAnimation();
+        setTimeout(function(){
             this.loadParallax();
+            this.setState({
+                notLoaded:false
+            })
+        }.bind(this), 2400);
+
     }
 
-    enterAnimation() {
-                this.setState({
-                    notLoaded:false
-                })
-    }
+
 
     redirectToServices = () => {
         this.props.history.push("/services");

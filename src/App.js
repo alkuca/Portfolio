@@ -16,7 +16,7 @@ class App extends Component {
           <Sidebar/>
 
               <Route exact path="/" component={HomeContent}/>
-
+            
             <Route path="/loader" component={Loader}/>
 
               <Route path="/services" component={ServicesContent} />
