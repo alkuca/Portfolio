@@ -13,11 +13,11 @@ class Slides2 extends Component {
             slide1.style.width="0%";
             slide1.style.transition="0.8s ease";
             slide1.style.opacity="1";
-        }, 2300);
+        }, 1800);
         setTimeout(function(){
             slide2.style.width="0%";
             slide2.style.transition="0.8s ease"
-        }, 3100);
+        }, 2600);
     }
 
     render() {

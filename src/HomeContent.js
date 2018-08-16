@@ -18,7 +18,7 @@ class HomeContent extends Component {
             this.setState({
                 notLoaded:false
             })
-        }.bind(this), 2400);
+        }.bind(this), 3100);
 
     }
 

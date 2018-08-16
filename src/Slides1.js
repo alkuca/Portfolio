@@ -16,15 +16,15 @@ class Slides1 extends Component {
         setTimeout(function(){
             slide1.style.width="0%";
             slide1.style.transition="0.8s ease"
-        }, 500);
+        }, 1);
         setTimeout(function(){
             slide2.style.width="0%";
             slide2.style.transition="0.8s ease"
-        }, 1300);
+        }, 800);
         setTimeout(function(){
             slide3.style.width="0%";
             slide3.style.transition="1.2s ease"
-        }, 2800);
+        }, 2300);
     }
 
 
