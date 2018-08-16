@@ -53,7 +53,7 @@ class HomeContent extends Component {
                             <h1 data-depth="0.2" >Hello, my name is Alen. I am a Designer / Front End Developer living in Pula, Croatia</h1>
                         </div>
                         <div className="text" id="p-parallax">
-                            <p data-depth="0.2">Hello, my name is Alen. I am a Designer / Front End Developer living in Pula, Croatia</p>
+                            <p data-depth="0.2">Hello, my name is Alen. I am a Designer / Front End Developer living in Pula</p>
                         </div>
                         <div id="button">
                             <div data-depth="0.2" className="button" onClick={this.redirectToServices}>
