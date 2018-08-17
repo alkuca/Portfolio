@@ -1,15 +1,17 @@
 {
-  "main.css": "static/css/main.89584c11.css",
-  "main.css.map": "static/css/main.89584c11.css.map",
-  "main.js": "static/js/main.a1486c12.js",
-  "main.js.map": "static/js/main.a1486c12.js.map",
+  "main.css": "static/css/main.5d0a48a4.css",
+  "main.css.map": "static/css/main.5d0a48a4.css.map",
+  "main.js": "static/js/main.e690598c.js",
+  "main.js.map": "static/js/main.e690598c.js.map",
   "static\\media\\almenyload.png": "static/media/almenyload.ab3c5dfa.png",
   "static\\media\\arcade.png": "static/media/arcade.1ba3dc57.png",
-  "static\\media\\back2.svg": "static/media/back2.ea216dfa.svg",
+  "static\\media\\back.png": "static/media/back.7890a408.png",
   "static\\media\\calm.png": "static/media/calm.a4c72394.png",
-  "static\\media\\gif4s.gif": "static/media/gif4s.3a146213.gif",
+  "static\\media\\certificate.PNG": "static/media/certificate.d6b35ca6.PNG",
+  "static\\media\\gifFace.gif": "static/media/gifFace.fc3403eb.gif",
   "static\\media\\map.png": "static/media/map.02b62bf6.png",
   "static\\media\\memory.png": "static/media/memory.4d7ba050.png",
   "static\\media\\myreads.png": "static/media/myreads.c5b1e975.png",
-  "static\\media\\reader.png": "static/media/reader.24bedf4d.png"
+  "static\\media\\reader.png": "static/media/reader.24bedf4d.png",
+  "static\\media\\remove-icon.svg": "static/media/remove-icon.7c3f40e9.svg"
 }
