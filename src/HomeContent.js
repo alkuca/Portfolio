@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import pic9 from './faceFront.png';
-import picFront from './faceBack.png';
+import picBack from './normal.png';
+import picFront from './facewithgif.gif';
 import Slides1 from "./Slides1";
 import Slides2 from "./Slides2";
 import Parallax from 'parallax-js'
@@ -19,8 +19,10 @@ class HomeContent extends Component {
                 notLoaded:false
             })
         }.bind(this), 3100);
-
     }
+
+
+
 
 
 
@@ -42,6 +44,8 @@ class HomeContent extends Component {
     }
 
 
+
+
     render() {
         return (
             this.state.notLoaded ? <Loader/> :
@@ -53,7 +57,7 @@ class HomeContent extends Component {
                             <h1 data-depth="0.2" >Hello, my name is Alen. I am a Designer / Front End Developer living in Pula, Croatia</h1>
                         </div>
                         <div className="text" id="p-parallax">
-                            <p data-depth="0.2">Hello, my name is Alen. I am a Designer / Front End Developer living in Pula</p>
+                            <p data-depth="0.2">Hello, my name is Alen. I am a Designer / Front End Developer living in Pula, Croatia</p>
                         </div>
                         <div id="button">
                             <div data-depth="0.2" className="button" onClick={this.redirectToServices}>
@@ -67,7 +71,6 @@ class HomeContent extends Component {
                         <Slides2/>
                         <div id="img-container">
                             <img alt="picFront" id="picFront" data-depth="0.1" src={picFront}/>
-                            <img alt="picBack" id="picBack" data-depth="0.1" src={pic9}/>
                         </div>
                     </div>
                 </div>

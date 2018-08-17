@@ -370,8 +370,7 @@ html, body {
    top:0;
    left:0;
    position:absolute;
-  -webkit-filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.81));
-  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.81));
+
  }
 
 /*
