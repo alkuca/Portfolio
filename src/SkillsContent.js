@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
+import Certificate from "./Certificate";
 
 
 class SkillsContent extends Component {
+
+    state=({
+        certificateVisible: false
+    });
 
     componentDidMount(){
         this.enterAnimation();
@@ -21,6 +26,7 @@ class SkillsContent extends Component {
         let js = document.querySelector(".js");
         let ill = document.querySelector(".ill");
         let ps = document.querySelector(".ps");
+        let certificateOpener = document.querySelector(".certificate-opener");
 
         content.style.opacity="1";
 
@@ -44,6 +50,22 @@ class SkillsContent extends Component {
             amount5.style.width="50%";
             ps.style.opacity="1";
         }, 800);
+        setTimeout(function(){
+            certificateOpener.style.opacity="1";
+        }, 1500);
+    }
+
+
+    showCertificate(){
+        this.setState({
+            certificateVisible: true
+        })
+    }
+
+    hideCertificate(){
+        this.setState({
+            certificateVisible: false
+        })
     }
 
     render() {
@@ -81,8 +103,12 @@ class SkillsContent extends Component {
                                 <p>50%</p>
                             </div>
                         </div>
+                        <div className="certificate-opener" onClick={this.showCertificate.bind(this)}>
+                            <p>Show Udacity Certificate<span> ➤</span></p>
+                        </div>
                     </div>
                 </div>
+                {this.state.certificateVisible ? <Certificate hideCertificate={this.hideCertificate.bind(this)}/> : null}
             </div>
         );
     }

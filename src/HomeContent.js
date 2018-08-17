@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import picBack from './normal.png';
-import picFront from './facewithgif.gif';
+import picFront from './gifFace.gif';
+import picBack from './back.png';
 import Slides1 from "./Slides1";
 import Slides2 from "./Slides2";
 import Parallax from 'parallax-js'
@@ -20,11 +20,6 @@ class HomeContent extends Component {
             })
         }.bind(this), 3100);
     }
-
-
-
-
-
 
     redirectToServices = () => {
         this.props.history.push("/services");
@@ -71,6 +66,7 @@ class HomeContent extends Component {
                         <Slides2/>
                         <div id="img-container">
                             <img alt="picFront" id="picFront" data-depth="0.1" src={picFront}/>
+                            <img alt="picBack" id="picBack" data-depth="0.1" src={picBack}/>
                         </div>
                     </div>
                 </div>

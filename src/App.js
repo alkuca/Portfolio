@@ -8,6 +8,7 @@ import ContactContent from "./ContactContent";
 import SkillsContent from "./SkillsContent"
 import HomeContent from "./HomeContent";
 import Loader from "./Loader";
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
               <Route path="/skills" component={SkillsContent}/>
 
               <Route path="/contact" component={ContactContent}/>
+
         </div>
     );
   }

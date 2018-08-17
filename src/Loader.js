@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Background from './back2.svg';
 class Loader extends Component {
 
 
