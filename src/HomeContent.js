@@ -6,6 +6,7 @@ import Slides1 from "./Slides1";
 import Slides2 from "./Slides2";
 import Parallax from 'parallax-js'
 import Loader from "./Loader";
+import SocialMedia from "./SocialMedia";
 
 class HomeContent extends Component {
     state=({
@@ -49,10 +50,10 @@ class HomeContent extends Component {
                     <div className="home-top-content">
                         <Slides1/>
                         <div id="h1-parallax">
-                            <h1 data-depth="0.2" >Hello, my name is Alen. I am a Designer / Front End Developer living in Pula, Croatia</h1>
+                            <h1 data-depth="0.2" >Hello, my name is <span className="span-text">Alen</span>. I am a <span className="span-text">Designer</span> / Front End <span className="span-text">Developer</span> living in Pula, Croatia</h1>
                         </div>
                         <div className="text" id="p-parallax">
-                            <p data-depth="0.2">Hello, my name is Alen. I am a Designer / Front End Developer living in Pula, Croatia</p>
+                            <p data-depth="0.2">Hello, my name is Alen. I am a Designer / Front End Developer living in Pula, CroatiaHello, my name is Alen. I am a Designer / Front End Developer living in Pula, CroatiaHello, my name is Alen. I am a Designer / Front End Developer living in Pula, Croatia</p>
                         </div>
                         <div id="button">
                             <div data-depth="0.2" className="button" onClick={this.redirectToServices}>
@@ -70,6 +71,7 @@ class HomeContent extends Component {
                         </div>
                     </div>
                 </div>
+                <SocialMedia/>
             </div>
         );
     }
